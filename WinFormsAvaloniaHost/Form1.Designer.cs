@@ -28,31 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            winFormsAvaloniaControlHost1 = new Avalonia.Win32.Interoperability.WinFormsAvaloniaControlHost();
             SuspendLayout();
-            // 
-            // winFormsAvaloniaControlHost1
-            // 
-            winFormsAvaloniaControlHost1.Content = null;
-            winFormsAvaloniaControlHost1.Location = new Point(26, 26);
-            winFormsAvaloniaControlHost1.Name = "winFormsAvaloniaControlHost1";
-            winFormsAvaloniaControlHost1.Size = new Size(741, 391);
-            winFormsAvaloniaControlHost1.TabIndex = 0;
-            winFormsAvaloniaControlHost1.Text = "winFormsAvaloniaControlHost1";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(winFormsAvaloniaControlHost1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Avalonia.Win32.Interoperability.WinFormsAvaloniaControlHost winFormsAvaloniaControlHost1;
     }
 }
